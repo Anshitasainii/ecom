@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url("photo/photos/bg.jpg");
+                 background-size: 1280px;
+                background-attachment: fixed;
+            }
+            form{
+                margin-left:80px;
+                width: 170px;
+                height: 300px;
+                padding: 20px;
+                border: solid ;
+                 border-color:white;
+                background-color:antiquewhite ;
+            }
+            .btn{
+                margin-top:30px;
+                width:100%;
+                background-color: beige;
+            }
+            .btn:hover{
+                color: powderblue;
+                border :solid;
+                box-shadow: 30px ;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="controller.jsp">
+            
+              <label for="fname"> Full Name</label>
+              <input type="text" id="fname" name="user" >
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" >
+              <label for="ccnum">Phone Number</label>
+              <input type="text" id="ccnum" name="phone">
+              <label for="pass">Password</label>
+              <input type="password" id="pass" name="pa" >
+              <label for="con">Confirm Password</label>
+              <input type="password" name="con" >
+            
+              <input type="submit" value="Signup as User" class="btn" name="su"><br><br>
+          sign-up as seller <a href="ssignup.html">Click</a>
+       </form> 
+    </body>
+</html>

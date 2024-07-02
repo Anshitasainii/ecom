@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <style>
+        .grid{
+            display: grid;
+            height:200px;
+            width: 500px;
+            grid-template-rows:250px 250px;
+            grid-template-columns:230px 230px 230px 230px;
+            row-gap:10px;
+            column-gap:5px;
+            margin-left:100px;
+            
+        }
+        .item{
+            background-color:pink;
+           
+        }
+        .item img{
+            margin:10px 50px 0px 50px;
+        }
+        .item a{
+            text-decoration: none;
+            color: black;
+        }
+        .item p{
+            background-color: skyblue;
+           padding-bottom: 1px;
+            font-size: 30px;
+        }
+    </style>
+    </head>
+   
+    <body>
+        <div class="grid">
+            <div class="item"> <a href="home.jsp?val=men"><img src="photo/photos/men.jpg" height="170px" width="130px" alt="not"><p align=center >Men</p></a></div>
+            <div class="item">  <a href="Index.jsp?val=women"><img src="photo/photos/woman.jpg" height="170px" width="130px" alt="not"><p align=center >Woman</p></a></div>
+            <div class="item"> <a href="Index.jsp?val="><img src="photo/photos/shoes.jpg" height="170px" width="130px" alt="not"><p align=center >Shoes</p></a></div>
+            <div class="item"> <a href="Index.jsp?val="><img src="photo/photos/phones.jpg" height="170px" width="130px" alt="not"><p align=center >Phones</p></a></div>
+            <div class="item"> <a href="Index.jsp?val="><img src="photo/photos/electronics.jpg" height="170px" width="130px" alt="not"><p align=center>Electronics</p></a></div>
+            <div class="item"> <a href="Index.jsp?val="><img src="photo/photos/denim.jpg" height="170px" width="130px" alt="not"><p align=center >Cloths</p></a></div>
+            <div class="item"> <a href="Index.jsp?val="><img src="photo/photos/cosmetics.jpg" height="170px" width="130px" alt="not"><p align=center >Cosmetics</p></a></div>
+            <div class="item"> <a href="Index.jsp?val="><img src="" alt=""></a></div>
+                 
+        </div>
+    </body>
+</html>
